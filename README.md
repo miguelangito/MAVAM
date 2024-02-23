@@ -2,8 +2,8 @@
 Restaurante MAVAM
 
 Tareas:
-Miguel: Login
-Antony: Registro
-Valeria: Landing page
-Aleja: Landing page
+Miguel: Landing page
+Antony: Landing page
+Valeria: Login
+Aleja: Registro
 Mateo: Galeria de imagenes
