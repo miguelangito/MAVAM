@@ -1,22 +1,23 @@
 //Selectores
-const formRegister = document.getElementById("form");
+const formRegister = document.getElementById("formRegister");
 const nameUser = document.getElementById("nameUser");
 const emailUser = document.getElementById("email");
-const adressUser = document.getElementById("adress");
+const addressUser = document.getElementById("address");
 const passwordUser = document.getElementById("password");
 const confirmPasswordUser = document.getElementById("confirmPassword");
-const URL = "http://localhost:3000/users"
+const btnSubmitForm = document.getElementById("btnSubmitForm");
+const URL = "http://localhost:3000/users";
 
 
 //Eventos 
 
 formRegister.addEventListener("submit", (event) => {
     event.preventDefault();
-
     agregarUsuario();
-    // window.location = "login.html"
-    
 });
+
+
+//Funciones
 
 async function agregarUsuario(){
     await fetch(URL, {
@@ -27,7 +28,7 @@ async function agregarUsuario(){
         body: JSON.stringify({
             name : nameUser.value,
             email: emailUser.value,
-            adress: adressUser.value, 
+            address: addressUser.value, 
             password: passwordUser.value, 
             confirmPassword: confirmPasswordUser.value
         })
