@@ -14,6 +14,8 @@ const URL = "http://localhost:3000/users";
 formRegister.addEventListener("submit", (event) => {
     event.preventDefault();
     agregarUsuario();
+    // window.location = "login.html"
+    
 });
 
 
@@ -23,7 +25,7 @@ async function agregarUsuario(){
     await fetch(URL, {
         method: "POST", 
         headers: {
-            contentType: "application/json" 
+            "Content-Type": "application/json" 
         }, 
         body: JSON.stringify({
             name : nameUser.value,
