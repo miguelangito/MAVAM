@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="text">
+          <h1>Inicia Sesión</h1>
+        </div>
+        <form id="form" method="post">
+
+            <div class="input-data">
+              <input
+                type="email"
+                id="email"
+                placeholder="Correo electrónico"
+                required
+              />
+            </div>
+
+            <div class="input-data">
+              <input
+                type="password"
+                id="password"
+                placeholder="Contraseña"
+                required
+              />
+            </div>
+
+            <div class="input-data">
+              <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirmar contraseña"
+                required
+              />
+            </div>
+
+            <button type="submit" id="btnSubmitForm">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
