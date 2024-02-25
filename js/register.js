@@ -7,4 +7,11 @@ const passwordUser = document.getElementById("password");
 const confirmPasswordUser = document.getElementById("confirmPassword");
 
 
+//Eventos 
 
+formRegister.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    
+    
+  });
