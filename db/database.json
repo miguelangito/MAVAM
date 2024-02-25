@@ -8,5 +8,14 @@
       "password": "123456",
       "confirmPassword": "123456"
     }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Pastel",
+      "description": "Delicioso pastel con crema blanca",
+      "image": "./images/209.jpg",
+      "price": "50.000"
+    }
   ]
 }
