@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background-image: url(https://images.pexels.com/photos/8732795/pexels-photo-8732795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    width: 400px;
+    background: #e8d8c49e;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    backdrop-filter: invert(20px);
+  }
+  
+  .container .text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+  }
+  
+  .container form .form-row {
+    
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 32px 0;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .input-data{
+    margin: 10%;
+  }
+  .input-data input{
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background: #6d293244;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  
+  .input-data input::placeholder {
+    text-align: center;
+    color: #000;
+  }
+  
+  #btnSubmitForm {
+    margin: 3%;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background: #561C24;
+    cursor: pointer;
+    margin-left: 18%;
+  }
+  
+  
+  
+  @media (max-width: 700px) {
+    .container h1 {
+      font-size: 30px;
+    }
+    .input-data {
+      width: 95% !important;
+    }
+  
+    .container form .form-row {
+      display: block;
+    }
+  
+    form .form-row .input-data {
+      margin: 35px 0 !important;
+    }
+  
+    .submit-btn .input-data {
+      width: 40% !important;
+    }
+  }
+  
+  
