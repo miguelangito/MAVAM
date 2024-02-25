@@ -12,6 +12,6 @@ const confirmPasswordUser = document.getElementById("confirmPassword");
 formRegister.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    
+    agregarUsuario();
     
   });
