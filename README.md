@@ -5,5 +5,5 @@ Tareas:
 Miguel: Landing page
 Antony: Landing page
 Valeria: Login
-Aleja: Registro
+Aleja y Luisa: Registro
 Mateo: Galeria de imagenes
