@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#navbar-letters{
+    font-style: normal;
+    font-family:"Quicksand", sans-serif ;
+    font-size:20px;
 }
 
 .banner{
@@ -44,4 +52,12 @@ body{
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.descripton-menu{
+    margin-right: 40%;
+}
+
+#dessert-image{
+    height: 145.52px;
 }

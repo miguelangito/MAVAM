@@ -1,137 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/gallery.css">
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/gallery.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="#"
-                width="70"
-                height="30"
-                class="d-inline-block align-text-top"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02"
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="#"
+              width="70"
+              height="30"
+              class="d-inline-block align-text-top"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="inicio.html"
+                  id="navbar-letters"
+                  >Home</a
+                >
+              </li>
+            </ul>
+            <a
+              class="nav-link navbar-brand"
+              href="galery.html"
+              role="button"
               aria-expanded="false"
-              aria-label="Toggle navigation"
+              id="navbar-letters"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="inicio.html"
-                    id="navbar-letters"
-                    >Home</a
-                  >
-                </li>
-              </ul>
-              <a
-                class="nav-link navbar-brand"
-                href="galery.html"
-                role="button"
-                aria-expanded="false"
-                id="navbar-letters"
-              >
-                <i class="bi bi-card-list"
-                id="navbar-letters"
-                > Products</i> </a
-              ><a
-                class="nav-link navbar-brand"
-                href="login.html"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="bi bi-person-fill"
-                id="navbar-letters"
-                > Log in</i>
-              </a>
-            </div>
+              <i class="bi bi-card-list" id="navbar-letters"> Products</i> </a
+            ><a
+              class="nav-link navbar-brand"
+              href="login.html"
+              role="button"
+              aria-expanded="false"
+            >
+              <i class="bi bi-person-fill" id="navbar-letters"> Log in</i>
+            </a>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
 
     <div class="banner">
-        <div class="banner-backdrop"></div>
-        <div class="banner-information">
-            <h1>Nuestros Productos</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-        </div>
+      <div class="banner-backdrop"></div>
+      <div class="banner-information">
+        <h1>Nuestros Productos</h1>
+        <p class="descripton-menu">
+          ¡Bienvenido a nuestra repostería! Deléitate con nuestra variedad de
+          dulces artesanales, desde croissants recién horneados hasta exquisitos
+          pasteles. Descubre el placer en cada bocado.
+        </p>
+      </div>
     </div>
-    
+
     <div class="gallery">
-        <div class="gallery-header">
-            <h2>Pasteles</h2>
-            <hr>
+      <div class="gallery-header">
+        <h2>Pasteles</h2>
+        <hr />
+      </div>
+      <div class="gallery-body">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./images/209.jpg"
+            class="card-img-top"
+            alt="..."
+            id="dessert-image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Torta</h5>
+            <p class="card-text">
+              Pastel bien bacano pa un cumpleanos que belleza si señor
+            </p>
+            <p><code>$ 10.000</code></p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
         </div>
-        <div class="gallery-body">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/209.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Pastel bien bacano pa un cumpleanos que belleza si señor</p>
-                  <p><code>$ 10.000</code></p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-            </div>
+      </div>
+      <div class="gallery-header">
+        <h2>Postresitos</h2>
+        <hr />
+      </div>
+      <div class="gallery-body">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://mandolina.co/wp-content/uploads/2023/06/postre-de-maracuya.png"
+            class="card-img-top"
+            alt="..."
+            id="dessert-image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">cheesecake de maracuya</h5>
+            <p class="card-text">
+              Pastel bien bacano pa un cumpleanos que belleza si señor
+            </p>
+            <p><code>$ 50.000</code></p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
         </div>
-        <div class="gallery-header">
-            <h2>Postresitos</h2>
-            <hr>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://mandolina.co/wp-content/uploads/2020/12/cheesecake-de-fresa.jpg"
+            class="card-img-top"
+            alt="..."
+            id="dessert-image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">cheesecake de fresas</h5>
+            <p class="card-text">
+              Pastel bien bacano pa un cumpleanos que belleza si señor
+            </p>
+            <p><code>$ 12.000</code></p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
         </div>
-        <div class="gallery-body">
-            <div class="card" style="width: 18rem;">
-                <img src="https://mandolina.co/wp-content/uploads/2023/06/postre-de-maracuya.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Pastel bien bacano pa un cumpleanos que belleza si señor</p>
-                  <p><code>$ 50.000</code></p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="https://mandolina.co/wp-content/uploads/2023/06/postre-de-maracuya.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Pastel bien bacano pa un cumpleanos que belleza si señor</p>
-                  <p><code>$ 12.000</code></p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="https://mandolina.co/wp-content/uploads/2023/06/postre-de-maracuya.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Pastel bien bacano pa un cumpleanos que belleza si señor</p>
-                  <p><code>$ 46.000</code></p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-            </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://mandolina.co/wp-content/uploads/2020/11/brownie-con-helado-destacada.jpg"
+            class="card-img-top"
+            alt="..."
+            id="dessert-image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Brownie con helado</h5>
+            <p class="card-text">
+              Pastel bien bacano pa un cumpleanos que belleza si señor
+            </p>
+            <p><code>$ 46.000</code></p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
         </div>
+      </div>
     </div>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
