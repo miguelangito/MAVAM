@@ -1,52 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-#navbar-letters{
-    font-style: normal;
-    font-family:"Quicksand", sans-serif ;
-    font-size:20px;
+#navbar-letters {
+  font-style: normal;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
 }
 
-.tittle{
-    font-family: "Cookie", cursive;
-    display: flex;
-    justify-content: center;
-    font-size: 10rem;
-    background-color: #6D2932;
-    color: #E8D8C0;
-    width: 100%;
-
+.tittle {
+  font-family: "Cookie", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 10rem;
+  background-color: #6d2932;
+  color: #e8d8c0;
+  width: 100%;
 }
 
-.carousel-tittle{
-    margin: 3%;
+.carousel-tittle {
+  margin: 3%;
 }
 
-.section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    background-color: #E8D8C0;
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #e8d8c0;
 }
 
-#carouselSlidesy{
-    width: 90%;
-    height: 500;
+#carouselSlidesy {
+  width: 90%;
+  height: 500;
 }
-#carrouselImg{
-    width: 90%;
-    height: 550px;
-    opacity: 0.7;
+#carrouselImg {
+  width: 90%;
+  height: 550px;
+  opacity: 0.7;
 }
 
-.letters{
-    color: #6D2932;
-
+.letters {
+  color: #6d2932;
 }
-#about-us{
-    padding-top: 5%;
-    width: 100%;
-    background-color: #E8D8C0;
+#about-us {
+  padding-top: 5%;
+  width: 100%;
+  background-color: #e8d8c0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding-top: 2%;
+  margin-bottom: 3%;
 }

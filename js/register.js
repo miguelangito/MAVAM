@@ -8,33 +8,28 @@ const confirmPasswordUser = document.getElementById("confirmPassword");
 const btnSubmitForm = document.getElementById("btnSubmitForm");
 const URL = "http://localhost:3000/users";
 
-
-//Eventos 
+//Eventos
 
 formRegister.addEventListener("submit", (event) => {
-    event.preventDefault();
-    agregarUsuario();
-    // window.location = "login.html"
-    
+  event.preventDefault();
+  agregarUsuario();
+  // window.location = "login.html"
 });
-
 
 //Funciones
 
-async function agregarUsuario(){
-    await fetch(URL, {
-        method: "POST", 
-        headers: {
-            "Content-Type": "application/json" 
-        }, 
-        body: JSON.stringify({
-            name : nameUser.value,
-            email: emailUser.value,
-            address: addressUser.value, 
-            password: passwordUser.value, 
-            confirmPassword: confirmPasswordUser.value
-        })
-    })
+async function agregarUsuario() {
+  await fetch(URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      name: nameUser.value,
+      email: emailUser.value,
+      address: addressUser.value,
+      password: passwordUser.value,
+      confirmPassword: confirmPasswordUser.value,
+    }),
+  });
 }
-
-
